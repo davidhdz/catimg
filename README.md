@@ -1,8 +1,6 @@
-utilities
+catimg
 =========
 
-catimg
----
 Utilidad que permite pegar una serie de imágenes en formato vertical u horizontal.
 `catimg` utiliza `imagemagick` para procesar las imágenes y agregar bordes automáticamente, pudiendo escoger el tamaño del mismo y color.
 
