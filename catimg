@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-import shlex
-import subprocess
+
 import os
 import sys
 import time
@@ -47,7 +46,8 @@ def main(argv):
     target = args[-1]
     print source
     os.system('convert ' + flag + source + ' ' + tempfile)
-    os.system('convert -border ' + str(bgral) + ' -bordercolor ' + opts.fondo + ' ' + tempfile + ' ' + target)
+    os.system('convert -border ' + str(bgral) + ' -bordercolor ' + opts.fondo + 
+        ' ' + tempfile + ' ' + target)
     os.remove(tempfile)
     print(('Image generated as ' + target))
 
