@@ -15,13 +15,13 @@ def main(argv):
 
     parser = optparse.OptionParser(
              usage='Usage: %prog [options] infiles outfile',
-             version=' %prog Version 0.1.0 by David Hernandez <davidhdz> 2014')
+             version=' %prog Version 0.2.0 by David Hernandez <davidhdz> 2016')
 
     parser.add_option('-v', '--vertical', help='vertical arrangement (default)',
                       dest='orienteacion', default='True', action='store_true')
     parser.add_option('-z', '--horizontal', help='horizontal arrangement',
                       dest='orientacion', action='store_false')
-    parser.add_option('-s', '--size', help='size between images, default 0',
+    parser.add_option('-g', '--gap', help='gap size between images, default 0',
                       dest='tamano', type='float', default=0, metavar='number')
     parser.add_option('-b', '--bgcolor', help='background color, default white',
                       dest='fondo', default='white', metavar='color')

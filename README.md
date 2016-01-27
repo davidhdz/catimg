@@ -11,7 +11,7 @@ Utilidad que permite pegar una serie de imágenes en formato vertical u horizont
       -h, --help            show this help message and exit
       -v, --vertical        vertical arrangement (default)
       -z, --horizontal      horizontal arrangement
-      -s number, --size=number
-                            size between images, default 0
+      -g number, --gap=number
+                            size gap between images, default 0
       -b color, --bgcolor=color
                             background color, default white
