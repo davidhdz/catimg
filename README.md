@@ -24,10 +24,10 @@ Ejemplo
 ![Before](images/407-password_web.png "Before")
 
 <br/>
-`catimg -v -g 5 -b white 407-password-3-0* 407-password.png`
+`catimg -v -g 5 -b grey 407-password-3-0* 407-password.png`
 
 <br/>
-![After](images/407-password.png "After")
+![After](images/407-password_grey.png "After")
 
 <br/>
 
