@@ -15,7 +15,7 @@ def main(argv):
 
     parser = optparse.OptionParser(
              usage='Usage: %prog [options] infiles outfile',
-             version=' %prog Version 0.2.0 by David Hernandez <davidhdz> 2016')
+             version=' %prog Version 0.3.0 by David Hernandez <davidhdz> 2016')
 
     parser.add_option('-v', '--vertical', help='vertical arrangement (default)',
                       dest='orienteacion', default='True', action='store_true')
@@ -45,7 +45,8 @@ def main(argv):
     source = '"' + '" "'.join(args[:-1]) + '"'
     target = args[-1]
     print source
-    os.system('convert ' + flag + source + ' ' + tempfile)
+    print
+    os.system('convert -gravity Center ' + flag + source + ' ' + tempfile)
     os.system('convert -border ' + str(bgral) + ' -bordercolor ' + opts.fondo + 
         ' ' + tempfile + ' ' + target)
     os.remove(tempfile)
