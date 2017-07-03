@@ -26,6 +26,7 @@ Ejemplo
 `catimg -v -g 5 -b grey 407-password-3-0* 407-password.png`
 
 <br/>
+
 ![After](images/407-password_grey.png "After")
 
 <br/>
