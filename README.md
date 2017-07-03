@@ -22,12 +22,14 @@ Ejemplo
 
 ![Before](images/407-password_web.png "Before")
 
-<br/>
+<br/><br/>
+
 `catimg -v -g 5 -b grey 407-password-3-0* 407-password.png`
 
-<br/>
+<br/><br/>
+
 ![After](images/407-password_grey.png "After")
 
-<br/>
+<br/><br/>
 
 Fuente de las imágenes: http://www.pidjin.net/2016/02/02/strong/
